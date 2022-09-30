@@ -53,7 +53,7 @@ print("1 = Sí" )
 print("2 = No")
 e = int(input("Indique su preferencia: "))
 
-#luces
+#dirección
 print("\n¿Agrega revisión de la dirección?")
 print("1 = Sí" )
 print("2 = No")
@@ -61,7 +61,7 @@ f = int(input("Indique su preferencia: "))
 
 
 tt = 0 # tiempo total
-servicios = "Servicios: "
+servicios = ""
 cantidad = 0
 
 if a == 1: 
