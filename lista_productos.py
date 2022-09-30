@@ -85,7 +85,7 @@ print("2: No")
 preferencial = int(input("ingrese su opción: "))
 if preferencial == 1:
     total = suma * 0.85
-    print(f"El total a pagar con un dcto de un 25% es: {round(total)} ")
+    print(f"El total a pagar con un descuento de un 25% es: {round(total)} ")
     efectivo = int(input("Ingrese el efectivo disponible para el pago: "))
     if efectivo > total:
         print("¡Muchas gracias por su compra!")

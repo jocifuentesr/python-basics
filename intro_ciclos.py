@@ -13,7 +13,7 @@
 # muestra una secuencia de los primeros 10 números naturales
 inicio = 0
 fin = 20
-while (inicio < fin):
+while inicio < fin:
     print(inicio)
     if inicio == 10:
         print("romper la secuencia en la iteración 10")
