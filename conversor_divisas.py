@@ -19,10 +19,28 @@ while not flag:
         opcion = int(input("Selecciones su opción: "))
         if opcion == 1:
             dolares = float(input("Indique la cantidad de dólares que quiere convertir: "))
-            print(f"{dolares} dolares en euros son: {round(dolares * 0.9156956819739548, 2)} ")
+            print(f"{dolares} dólares en euros son: {round(dolares * 0.9156956819739548, 2)} ")
         elif opcion == 2:
             dolares = float(input("Indique la cantidad de dólares que quiere convertir: "))
-            print(f"{dolares} dolares en UF son: {round((dolares * dolar) / uf), 2} ")
+            print(f"{dolares} dólares en UF son: {round((dolares * dolar) / uf), 2} ")
+        else:
+            print("La opción ingresada no es correcta")
+            cont = cont + 1
+        if cont == 4:
+            print("Superó la cantidad máxima de uso")
+            break
+
+    if opcion == 2:
+        print("\nIndique la conversión que desea realizar")
+        print("1. Euros a dólares")
+        print("2. Euros a UF")
+        opcion = int(input("Selecciones su opción: "))
+        if opcion == 1:
+            euros = float(input("Indique la cantidad de euros que quiere convertir: "))
+            print(f"{euros} euros en dólares son: {round( euros * 1.092065868263473, 2)}")
+        elif opcion == 2:
+            euros = float(input("Indique la cantidad de euros que quiere convertir: "))
+            print(f"{euros} euros en UF son: {euros * euro / uf} ")
         else:
             print("La opción ingresada no es correcta")
         cont = cont + 1
