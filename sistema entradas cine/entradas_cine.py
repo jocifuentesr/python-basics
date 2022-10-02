@@ -69,7 +69,7 @@ elif opcion == 2:
     print(f"El precio a pagar es: {precio_palomitas}")
 elif opcion == 3:
     grandes = 8200
-    print("Ingrese la cantidad de palomitas medianas: ")
+    print("Ingrese la cantidad de palomitas grandes: ")
     cantidad = int(input())
     precio_palomitas = cantidad * grandes
     print(f"El precio a pagar es: {precio_palomitas}")
@@ -79,6 +79,43 @@ else:
 
 
 # BEBIDAS
+print("-" * 40)
+print("AGREGUE BEBIDAS AL PEDIDO")
+print("-" * 40)
+print("¿El cliente desea bebidas?")
+print("1. chicas")
+print("2. medianas")
+print("3. grandes")
+print("4. No desea bebidas")
+opcion = int(input("Ingrese su opción: "))
+if opcion == 1:
+    chicas = 2500
+    print("Ingrese la cantidad de bebidas chicas: ")
+    cantidad = int(input())
+    precio_bebidas = cantidad * chicas
+    print(f"El precio a pagar es: {precio_bebidas}")
+elif opcion == 2:
+    medianas = 4000
+    print("Ingrese la cantidad de bebidas medianas: ")
+    cantidad = int(input())
+    precio_bebidas = cantidad * medianas
+    print(f"El precio a pagar es: {precio_bebidas}")
+elif opcion == 3:
+    grandes = 6000
+    print("Ingrese la cantidad de bebidas grandes: ")
+    cantidad = int(input())
+    precio_bebidas = cantidad * grandes
+    print(f"El precio a pagar es: {precio_bebidas}")
+else:
+    print("No desea palomitas")
+    precio_bebidas = 0
 
 
-
+# RESUMEN DE PRODUCTOS
+print("-" * 40)
+print("DETALLE DE LA COMPRA")
+print("-" * 40)
+print(f"El precio a pagar por las entradas es: {precio_pago}")
+print(f"El precio a pagar por las palomitas es: {precio_palomitas}")
+print(f"El precio a pagar por las bebidas es: {precio_bebidas}")
+print(f"PRECIO TOTAL: ${precio_pago + precio_palomitas + precio_bebidas}")
