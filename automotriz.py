@@ -5,12 +5,12 @@ Finalmente, muestra el tiempo de espera total para el cliente.
 
 # tiempos de servicio
 # tiempo total 4.7 horas
-ta = 2 # rev km
-tb = 1 # aceite
-tc = 0.5 # frenos
-td = 0.5 # correas
-te = 0.2 # luces
-tf = 0.5 # dirección 
+ta = 2  # rev km
+tb = 1  # aceite
+tc = 0.5  # frenos
+td = 0.5  # correas
+te = 0.2  # luces
+tf = 0.5  # dirección
 tg = 0.5  # lavado (opcional)
 
 print("\n"+"-" * 40)
@@ -23,37 +23,38 @@ modelo = input("Ingrese modelo de su auto: ")
 print("\n"+"-" * 30)
 print("Elección de servicios")
 print("-" * 30)
-#rev1000km
+
+# rev1000km
 print("¿Viene por servicio de revisión de 1000 km?")
 print("1 = Sí" )
 print("2 = No")
 a = int(input("Indique su preferencia: "))
 
-#aceite
+# aceite
 print("\n¿Agrega cambio de aceite?")
 print("1 = Sí" )
 print("2 = No")
 b = int(input("Indique su preferencia: "))
 
-#frenos
+# frenos
 print("\n¿Agrega revisión de frenos?")
 print("1 = Sí" )
 print("2 = No")
 c = int(input("Indique su preferencia: "))
 
-#correas
+# correas
 print("\n¿Agrega cambio de correas?")
 print("1 = Sí" )
 print("2 = No")
 d = int(input("Indique su preferencia: "))
 
-#luces
+# luces
 print("\n¿Agrega revisión de luces?")
 print("1 = Sí" )
 print("2 = No")
 e = int(input("Indique su preferencia: "))
 
-#dirección
+# dirección
 print("\n¿Agrega revisión de la dirección?")
 print("1 = Sí" )
 print("2 = No")
